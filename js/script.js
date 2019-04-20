@@ -109,7 +109,9 @@ $('#movie-list1').html(``);
 					
 					lulus();
         }
-		if(result.status == "gagal"){ $('#movie-list1').html("<font color=red><b>Data Tidak Ditemukan</b></font>") }
+		if(result.status == "gagal"){ 
+			$('#movie-list').html(``);
+			$('#movie-list1').html("<font color=red><b>Data Tidak Ditemukan</b></font>") }
 		}
     });
 }
