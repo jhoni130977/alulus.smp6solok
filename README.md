@@ -1,0 +1,1 @@
+# alulus.smp6solok
